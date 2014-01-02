@@ -6,14 +6,14 @@ dough-recipe-calculator
   - `unitMass`
   - `quantity`
   - `tags`
-  - [`Ingriedent`]
+  - [`(Ingriedent, percent)`]
 
 - `Ingredient`
   - `name`
   - `flour?`
     flours add up to 100%; others are relative to total flour
-  - `priority`
-    lowest is automatically adjusted when others are changed?
+  - `priority` or `remainder?`
+    automatically adjust when others are changed
   - [`Conversion`]
 
 - `Conversion`
